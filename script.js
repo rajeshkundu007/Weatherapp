@@ -23,7 +23,7 @@ async function weather() {
     const data = await fetch(url,options)
      const result = await data.json()
      console.log(result.location.name)
-     cityname.innerText = result.location.name+","+""+ result.location.country
+     cityname.innerText = result.location.name
      temperature.innerText = result.current.temp_c
      feelslike1.innerText = result.current.feelslike_c
      humidity.innerText = result.current.humidity
