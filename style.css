@@ -1,0 +1,12 @@
+.a {
+    height: 100px;
+    width: 330px;
+    display: flex; 
+    justify-content: space-between;
+}
+.pic{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    
+}
