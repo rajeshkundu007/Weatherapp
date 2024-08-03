@@ -10,3 +10,15 @@
     background-size: cover;
     
 }
+body{
+    background-image: url();
+}
+.main {
+    height: 100%;
+    width: 100%;
+    background-image: url(pexels-tahir-shaw-50609-186980.jpg);
+    background-size: cover;
+}
+h3 {
+    font-size:1.7rem;
+}
